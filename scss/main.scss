@@ -1,0 +1,32 @@
+@import "reset";
+/*------------------*/
+
+@import "cores";
+
+body {
+  background: $preto;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    margin-left: 5px;
+    text-transform: uppercase;
+    color: $vermelho;
+    font-family: "Arial Black";
+    font-size: 40px;
+  }
+  nav a {
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+  }
+  nav a:hover {
+    color: #fff;
+  }
+}
