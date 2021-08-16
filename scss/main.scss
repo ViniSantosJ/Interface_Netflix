@@ -1,13 +1,14 @@
 /* Imports */
 @import "reset";
 @import "cores";
+@import "responsividade";
 
 /* Elementos base */
 
 body {
   background: $preto;
   color: $branco;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Arial", Times, serif;
 }
 
 header {
@@ -86,5 +87,11 @@ header {
 .box-filme {
   height: 100%;
   width: 100%;
+  border-radius: 5px;
+  margin-left: 5px;
   display: block;
+}
+
+.carousel-filmes {
+  margin-top: 10px;
 }
